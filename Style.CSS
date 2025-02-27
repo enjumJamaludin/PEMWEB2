@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(14, 246, 246);
+    
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+thead {
+    background-color: rgb(12, 209, 71);
+    
+}
+
+tbody {
+    text-align: center;
+    color: rgb(14, 20, 203);
+    font-style: italic;
+}
