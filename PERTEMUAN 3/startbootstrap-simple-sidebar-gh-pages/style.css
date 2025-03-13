@@ -1,0 +1,148 @@
+
+
+
+/* Mengatur background halaman */
+body  {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.container {
+    background-color: #0feae3;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Tombol Kirim */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+h4 {
+    color: #007bff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+ul.list-unstyled {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+ul.list-unstyled li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul.list-unstyled li a:hover {
+    color: #0056b3;
+}
+
+
+iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif untuk tampilan mobile */
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 1rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
